@@ -3,9 +3,10 @@ import '../assets/scss/header.scss';
 const body = document.querySelector('body');
 const content = document.getElementById('content');
 const header = document.createElement('header');
+header.classList.add('header');
 
 const nav = document.createElement('nav');
-nav.classList.add('navbar','navbar-expand-md')
+nav.classList.add('navbar','navbar-expand-md');
 
 header.appendChild(nav);
 
