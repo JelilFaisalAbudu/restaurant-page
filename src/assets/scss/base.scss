@@ -1,6 +1,7 @@
 @import "~bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 body {
-  // background-image: radial-gradient(circle, , yellow, green);
-  background: url("../images/res_pg_bg_img.jpg");
-  background-size: cover;
+  font-size: 16px;
+  font-family: 'Bebas Neue', cursive;
 }
