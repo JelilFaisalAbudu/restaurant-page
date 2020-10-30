@@ -4,6 +4,9 @@
 body {
   font-size: 16px;
   font-family: 'Bebas Neue', cursive;
+  background: url("../images/artur-tumasjan-res-pic.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #content {
@@ -11,5 +14,4 @@ body {
   top: 0;
   bottom: 0;
   height: 100%;
-
 }
