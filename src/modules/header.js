@@ -69,4 +69,4 @@ const loadHeader = () => {
   body.insertBefore(header, content);
 };
 
-export { loadHeader, homeNavLink, aboutNavLink,contactNavLink };
+export { loadHeader, homeNavLink,menuNavLink, aboutNavLink,contactNavLink };
