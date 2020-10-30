@@ -1,6 +1,7 @@
 import '../src/assets/scss/base.scss';
 import * as Header from './modules/header';
 import RenderHomeContent from './modules/home';
+import RenderMenu from './modules/food_menu';
 
 
 const clearContent = () => {
@@ -16,3 +17,11 @@ Header.homeNavLink.addEventListener('click', (e) => {
   clearContent();
   RenderHomeContent();
 });
+
+Header.menuNavLink.addEventListener('click', (e) => {
+  e.preventDefault();
+  clearContent();
+  RenderMenu();
+});
+
+
