@@ -46,11 +46,12 @@ const navbarNav = document.createElement('div');
 navbarNav.classList.add('navbar-nav');
 
 const homeNavLink = document.createElement('a');
+const menuNavLink = document.createElement('a');
 const aboutNavLink = document.createElement('a');
 const contactNavLink = document.createElement('a');
 
-const navbarNavItems = [homeNavLink, aboutNavLink, contactNavLink];
-const  navbarNavItemsTexts = ['home', 'about', 'contact'];
+const navbarNavItems = [homeNavLink, menuNavLink, aboutNavLink, contactNavLink];
+const  navbarNavItemsTexts = ['home', 'menu', 'about', 'contact'];
 
 for (let i = 0; i < navbarNavItems.length; i++) {
   let navLink = navbarNavItems[i];
