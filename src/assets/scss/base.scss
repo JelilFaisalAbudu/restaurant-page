@@ -18,9 +18,9 @@ body {
 }
 
 #content {
+  flex-grow: 1;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%;
-  flex-grow: 1;
+  flex-direction: column;
 }
