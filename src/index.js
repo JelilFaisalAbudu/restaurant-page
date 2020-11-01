@@ -3,6 +3,7 @@ import * as Header from './modules/header';
 import RenderHomeContent from './modules/home';
 import RenderMenu from './modules/food_menu';
 import RenderAbout from './modules/about';
+import RenderContact from './modules/contact';
 
 
 const clearContent = () => {
@@ -32,4 +33,8 @@ Header.aboutNavLink.addEventListener('click', (e) => {
   RenderAbout();
 });
 
-
+Header.contactNavLink.addEventListener('click', (e) => {
+  e.preventDefault();
+  clearContent();
+  RenderContact();
+});
