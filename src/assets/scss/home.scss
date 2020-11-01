@@ -5,3 +5,17 @@ body {
   background-repeat: no-repeat;
   position: relative;
 }
+
+.home-caption-container {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    font-size: 4rem;
+    font-family: 'Bebas Neue', cursive;
+    max-width: 43%;
+    text-align: center;
+  }
+}
