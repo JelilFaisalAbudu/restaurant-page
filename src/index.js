@@ -2,6 +2,7 @@ import '../src/assets/scss/base.scss';
 import * as Header from './modules/header';
 import RenderHomeContent from './modules/home';
 import RenderMenu from './modules/food_menu';
+import RenderAbout from './modules/about';
 
 
 const clearContent = () => {
@@ -10,6 +11,7 @@ const clearContent = () => {
 };
 
 Header.loadHeader();
+RenderHomeContent();
 
 
 Header.homeNavLink.addEventListener('click', (e) => {
@@ -22,6 +24,12 @@ Header.menuNavLink.addEventListener('click', (e) => {
   e.preventDefault();
   clearContent();
   RenderMenu();
+});
+
+Header.aboutNavLink.addEventListener('click', (e) => {
+  e.preventDefault();
+  clearContent();
+  RenderAbout();
 });
 
 
