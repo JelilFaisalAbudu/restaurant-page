@@ -1,0 +1,22 @@
+.header {
+  background-color: rgba(33, 33, 33, 0.92);
+  position: sticky;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  padding: 0.6em 0;
+
+  .navbar-brand {
+    font-size: 2rem;
+  }
+
+  .navbar-nav {
+    justify-content: space-between;
+    margin-left: auto;
+    width: 30%;
+  }
+
+  a:hover {
+    color: darkred;
+  }
+}
