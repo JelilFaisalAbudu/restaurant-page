@@ -55,13 +55,13 @@ To get a local copy up and running follow these simple example steps.
 
 In order to perform the last four operation, you must have following tools installed.
 
-- Node.  Click on the link [install](https://nodejs.org/en/) for the installation instructions for you OS.
+- Node.  Click on the link [install](https://nodejs.org/en/) for the installation instructions for your OS.
 
 - Run ```npm install npm@latest -g``` to update to the latest npm version.
 
 ## Authors
 
-👤 **Author1**
+👤 **Author**
 
 - Github: [JelilFaisalAbudu](https://github.com/JelilFaisalAbudu)
 - Twitter: [@jelilabudu](https://twitter.com/jelilabudu)
