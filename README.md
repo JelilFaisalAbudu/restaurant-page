@@ -4,13 +4,13 @@
 
 ## Table of Contents
 
-- [Built With](#Built With)
+- [Built-With](#Built With)
 - [Installation](#Installations)
 - [Contributing](#Contributing)
 - [Acknowledgments](#Acknowledgments)
 - [License](#License)
 
-![screenshot](./app_screenshot.png)
+![screenshot](./src/assets/images/res-page-scrnsht.png)
 
 This project is one of the Microverse students' solo assignment of the JavaScript module.
 To build a solid foundation in the modern JavaSCript, each major feature of the app was built separately and exported as a module. These modules the home page, navigation, about, menu and the contact pages.
@@ -26,7 +26,7 @@ To build a solid foundation in the modern JavaSCript, each major feature of the 
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://raw.githack.com/JelilFaisalAbudu/restaurant-page/feature/dist/index.html)
 
 ## Getting Started
 
@@ -47,7 +47,7 @@ To get a local copy up and running follow these simple example steps.
 
 - Directly open the the file ```dist/index.html``` with your browser to view the pages.
 
-- Run ```npm run develop`` to bundle the codes after making changes to them.
+- Run ```npm run develop``` to bundle the codes after making changes to them.
 
 - Run ```npm run build``` to bundle the code for production.
 
@@ -55,7 +55,7 @@ To get a local copy up and running follow these simple example steps.
 
 In order to perform the last four operation, you must have following tools installed.
 
-- Node.  Click on the link [install](https://nodejs.org/en/)) for the installation instructions for you OS.
+- Node.  Click on the link [install](https://nodejs.org/en/) for the installation instructions for you OS.
 
 - Run ```npm install npm@latest -g``` to update to the latest npm version.
 
