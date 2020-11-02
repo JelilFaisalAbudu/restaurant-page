@@ -83,4 +83,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [GPL](lic.url)(http://www.gnu.org/licenses/gpl.txt) licensed.
+This project is [GPL](http://www.gnu.org/licenses/gpl.txt) licensed.
