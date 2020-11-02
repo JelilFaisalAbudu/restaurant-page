@@ -1,11 +1,11 @@
-import  '../assets/scss/about.scss';
+import '../assets/scss/about.scss';
 
 const aboutContent = () => {
   const contentDiv = document.getElementById('content');
   const aboutContentDiv = document.createElement('div');
   const aboutHeaderEl = document.createElement('h2');
-  let aboutContentEl = document.createElement('p');
-  let aboutText = 'A passionate team waiting for you everyday and every night!';
+  const aboutContentEl = document.createElement('p');
+  const aboutText = 'A passionate team waiting for you everyday and every night!';
 
   contentDiv.appendChild(aboutContentDiv);
   aboutContentDiv.classList.add('about-container');

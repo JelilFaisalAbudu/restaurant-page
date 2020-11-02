@@ -6,7 +6,7 @@ const header = document.createElement('header');
 header.classList.add('header');
 
 const nav = document.createElement('nav');
-nav.classList.add('navbar','navbar-expand-md');
+nav.classList.add('navbar', 'navbar-expand-md');
 
 header.appendChild(nav);
 
@@ -18,20 +18,19 @@ nav.appendChild(navbarBrand);
 
 const navbarToggler = document.createElement('button');
 navbarToggler.classList.add('navbar-toggler');
-const navbarTogglerAttr =  {
+const navbarTogglerAttr = {
   type: 'button',
-  toggle:'collapse',
+  toggle: 'collapse',
   target: '#navBarNav',
 };
 
-for (const attr in navbarTogglerAttr) {
+Object.keys(navbarTogglerAttr).forEach(attr => {
   if ((attr === 'type')) {
     navbarToggler.setAttribute(`${attr}`, `${navbarTogglerAttr[attr]}`);
-  }
-  else {
+  } else {
     navbarToggler.setAttribute(`data-${attr}`, `${navbarTogglerAttr[attr]}`);
   }
-}
+});
 
 const navbarTogglerIcon = document.createElement('span');
 navbarTogglerIcon.classList.add('navbar-toggler-icon');
@@ -51,10 +50,10 @@ const aboutNavLink = document.createElement('a');
 const contactNavLink = document.createElement('a');
 
 const navbarNavItems = [homeNavLink, menuNavLink, aboutNavLink, contactNavLink];
-const  navbarNavItemsTexts = ['home', 'menu', 'about', 'contact'];
+const navbarNavItemsTexts = ['home', 'menu', 'about', 'contact'];
 
-for (let i = 0; i < navbarNavItems.length; i++) {
-  let navLink = navbarNavItems[i];
+for (let i = 0; i < navbarNavItems.length; i += 1) {
+  const navLink = navbarNavItems[i];
   navLink.textContent = navbarNavItemsTexts[i];
   navLink.href = '#';
   navLink.id = navbarNavItemsTexts[i];
@@ -69,4 +68,6 @@ const loadHeader = () => {
   body.insertBefore(header, content);
 };
 
-export { loadHeader, homeNavLink,menuNavLink, aboutNavLink,contactNavLink };
+export {
+  loadHeader, homeNavLink, menuNavLink, aboutNavLink, contactNavLink,
+};

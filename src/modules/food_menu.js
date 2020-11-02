@@ -1,10 +1,10 @@
 import '../assets/scss/food_menu.scss';
 import Munsell from '../assets/images/alex-munsell.jpg';
-import  Brooke from '../assets/images/brooke-lark.jpg';
+import Brooke from '../assets/images/brooke-lark.jpg';
 import Dan from '../assets/images/dan-gold.jpg';
 import Dragne from '../assets/images/dragne-marius.jpg';
 import Rachel from '../assets/images/rachel-park.jpg';
-import SeaMeal from '../assets/images/res_menu.jpg'
+import SeaMeal from '../assets/images/res_menu.jpg';
 
 const contentDiv = document.getElementById('content');
 const menuContainer = document.createElement('div');
@@ -17,10 +17,9 @@ row.classList.add('row');
 const menuPics = [Munsell, Brooke, Dan, Dragne, Rachel, SeaMeal];
 const foodMenu = () => {
   menuPics.forEach(pic => {
-    let img = new Image();
+    const img = new Image();
     img.classList.add('menu-pic', 'col-12', 'col-md-6', 'col-lg-4', 'img-fluid');
     img.src = pic;
-    console.log(`Here is ${pic}`)
     row.appendChild(img);
   });
   contentDiv.appendChild(menuContainer);
