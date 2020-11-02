@@ -26,7 +26,7 @@ To build a solid foundation in the modern JavaSCript, each major feature of the 
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/JelilFaisalAbudu/restaurant-page/feature/dist/index.html)
+[Live Demo Link](https://raw.githack.com/JelilFaisalAbudu/restaurant-page/development/dist/index.html)
 
 ## Getting Started
 
