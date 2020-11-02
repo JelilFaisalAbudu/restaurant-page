@@ -1,7 +1,6 @@
 import '../assets/scss/home.scss';
 
 const homeContent = () => {
-  // const body = document.querySelector('body');
   const contentDiv = document.getElementById('content');
   const homeCaptionDiv = document.createElement('div');
   const homeCaptionEl = document.createElement('p');
